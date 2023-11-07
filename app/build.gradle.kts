@@ -70,4 +70,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation("androidx.webkit:webkit:1.4.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+
 }

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#0D293A"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,7 +19,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:hint="Enter Link"
-        android:layout_marginTop="160dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"/>
 
     <Button
@@ -24,7 +31,7 @@
         android:layout_below="@id/linkEditText"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="75dp"
         android:backgroundTint="@color/button_default_color"
         android:fontFamily="@font/fira_mono_medium"
         android:gravity="center"
@@ -33,5 +40,14 @@
         android:textSize="22dp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"/>
+
 
 </LinearLayout>
+
+</ScrollView>

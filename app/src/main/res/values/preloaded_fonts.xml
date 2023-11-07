@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bungee_outline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/fira_mono_medium</item>
+        <item>@font/monoton</item>
+        <item>@font/train_one</item>
+    </array>
+</resources>

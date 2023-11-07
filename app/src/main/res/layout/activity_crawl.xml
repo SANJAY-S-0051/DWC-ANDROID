@@ -8,21 +8,23 @@
     android:orientation="vertical"
     tools:context="com.example.CrawlActivity">
 
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
+        android:id="@+id/linkEditText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-    </com.google.android.material.textfield.TextInputLayout>
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Enter Link"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="150dp"
-        android:layout_height="90dp"
+        android:id="@+id/openLinkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        android:layout_below="@id/linkEditText"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="center"
+        android:layout_marginTop="140dp"
         android:backgroundTint="@color/button_default_color"
         android:fontFamily="@font/fira_mono_medium"
         android:gravity="center"
@@ -30,8 +32,6 @@
         android:text="Crawl"
         android:textSize="22dp"
         android:textStyle="bold" />
-
-
 
 
 </LinearLayout>
